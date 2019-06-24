@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char OldTransactionReceiptVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <OldTransactionReceipt/PublicHeader.h>
 
+#import <OldTransactionReceipt/BridgeTools.h>
 

@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CFEE083C2297CEA700993868 /* OldTransactionReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEE083A2297CEA700993868 /* OldTransactionReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFEE08442297CF1E00993868 /* BridgeReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEE08422297CF1D00993868 /* BridgeReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFEE08452297CF1E00993868 /* BridgeReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEE08432297CF1D00993868 /* BridgeReceipt.m */; };
+		CFEE08442297CF1E00993868 /* BridgeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEE08422297CF1D00993868 /* BridgeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFEE08452297CF1E00993868 /* BridgeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEE08432297CF1D00993868 /* BridgeTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFEE08372297CEA700993868 /* OldTransactionReceipt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OldTransactionReceipt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEE083A2297CEA700993868 /* OldTransactionReceipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldTransactionReceipt.h; sourceTree = "<group>"; };
 		CFEE083B2297CEA700993868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFEE08422297CF1D00993868 /* BridgeReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeReceipt.h; sourceTree = "<group>"; };
-		CFEE08432297CF1D00993868 /* BridgeReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeReceipt.m; sourceTree = "<group>"; };
+		CFEE08422297CF1D00993868 /* BridgeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeTools.h; sourceTree = "<group>"; };
+		CFEE08432297CF1D00993868 /* BridgeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				CFEE083A2297CEA700993868 /* OldTransactionReceipt.h */,
-				CFEE08422297CF1D00993868 /* BridgeReceipt.h */,
-				CFEE08432297CF1D00993868 /* BridgeReceipt.m */,
+				CFEE08422297CF1D00993868 /* BridgeTools.h */,
+				CFEE08432297CF1D00993868 /* BridgeTools.m */,
 				CFEE083B2297CEA700993868 /* Info.plist */,
 			);
 			path = OldTransactionReceipt;
@@ -65,7 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEE08442297CF1E00993868 /* BridgeReceipt.h in Headers */,
+				CFEE08442297CF1E00993868 /* BridgeTools.h in Headers */,
 				CFEE083C2297CEA700993868 /* OldTransactionReceipt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEE08452297CF1E00993868 /* BridgeReceipt.m in Sources */,
+				CFEE08452297CF1E00993868 /* BridgeTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
